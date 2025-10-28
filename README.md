@@ -1,3 +1,9 @@
+<!-- GETTING-STARTED -->
+## Getting Started
+
+- **Elias checklist:** https://github.com/rickballard/CoContrib/blob/main/contributors/elias/ONBOARDING_CHECKLIST.md
+- **First-build ticket:** https://github.com/rickballard/CoContrib/issues/6
+
 [![Elias Checklist](https://img.shields.io/badge/Elias-Checklist-blue)](https://github.com/rickballard/CoContrib/blob/main/contributors/elias/ONBOARDING_CHECKLIST.md)
 
 # CoContrib — Contributor Landing Pad
@@ -16,4 +22,5 @@ Welcome! This repo is the gentle on-ramp for new CoSuite contributors.
 **Later:** CoPrime/indices will ingest this repo. See `handoff/CoPrime-POINTERS.md`.
 
 **Ethos:** no corruption · no coercion · no crowns
+
 
