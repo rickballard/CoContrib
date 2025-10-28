@@ -138,4 +138,7 @@ Public-interest alignment; vendor-neutral container; transparent diffs.
 ## 12) Call to action
 Pick one theme → ship a pilot in 30 days; open a PR; contribute receipts; sponsor public-interest work.
 
+
+**Contributor CoSync:** See docs/New_Session_CoSync_for_Contributors.md for the session bootstrap used by Contributors.
 **Fun closer:** *Build boldly. Audit kindly. If it breaks, leave breadcrumbs for your future self.*
+
