@@ -1,0 +1,4 @@
+CHECKS
+- Run link/table validators in PR CI
+- Run tools/Render-Scorecard.ps1 on SCHEMA.csv
+- Keep HP57/BPOE deep links out of Contributor materials
