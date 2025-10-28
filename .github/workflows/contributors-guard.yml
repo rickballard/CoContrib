@@ -1,0 +1,23 @@
+name: contributors-guard
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ensure each new contributor has checklist + profile
+        run: |
+          set -e
+          # list added/changed paths
+          CHANGED=$(git diff --name-status origin/main...HEAD | awk '$1=="A"||$1=="M"{print $2}')
+          # detect new contributor folders
+          NEWDIRS=$(echo "$CHANGED" | grep -E "^contributors/[^/]+/" | cut -d/ -f1,2 | sort -u || true)
+          BAD=0
+          for d in $NEWDIRS; do
+            # Require checklist + profile
+            test -f "$d/ONBOARDING_CHECKLIST.md" || { echo "::error title=Missing checklist::$d/ONBOARDING_CHECKLIST.md"; BAD=1; }
+            test -f "$d/profile.json" || { echo "::error title=Missing profile::$d/profile.json"; BAD=1; }
+          done
+          exit $BAD
