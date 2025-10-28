@@ -1,5 +1,7 @@
 # CoSuite Open-Source Compass
 
+
+> [**See also: Contrib CoSync →**](../../../../../docs/New_Session_CoSync_for_Contributors.md)
 **Tagline:** *Rapidly build team, organization, and regulatory tools that are free, safe, credible, auditable, and immediate—glued together by CoCivium (an open-source community).*
 
 **Version:** 1.5 (2025-10-28 20:00:11 UTC)
