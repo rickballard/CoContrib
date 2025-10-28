@@ -1,0 +1,11 @@
+{
+  "name": "AdviceBomb_CoSuite_Compass_20251028-200011",
+  "created_utc": "2025-10-28 20:00:11 UTC",
+  "purpose": "Compass + Outreach evolved deliverables",
+  "includes": [
+    "docs/marketing/CoSuite_Open-Source_Compass.md",
+    "docs/outreach/CoSuite_Compass_Outreach_Guide.md",
+    "docs/marketing/scorecards/SCHEMA.csv",
+    "tools/Render-Scorecard.ps1"
+  ]
+}
