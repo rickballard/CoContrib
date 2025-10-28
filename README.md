@@ -24,3 +24,8 @@ Welcome! This repo is the gentle on-ramp for new CoSuite contributors.
 **Ethos:** no corruption · no coercion · no crowns
 
 
+
+## Quick Links
+- Compass (marketing): `contributors/elias/compass/docs/marketing/CoSuite_Open-Source_Compass.md`
+- Contributor CoSync (session bootstrap): `docs/New_Session_CoSync_for_Contributors.md`
+
