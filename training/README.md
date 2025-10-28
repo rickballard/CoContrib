@@ -21,3 +21,6 @@ you can open a PR there to place the zip into its advice inbox and append `INBOX
 
 > Tip: In your own AI chat, narrate what each step means (AdviceBomb, CoSync, Inbox),
 > and ask your AI to critique and iterate (CoEvo-1/2/3).
+
+> **Keyboard tips:** If a step hangs, press **Ctrl+C** to cancel.
+> See [Keyboard Survival](../docs/KEYBOARD_SURVIVAL.md) for more.

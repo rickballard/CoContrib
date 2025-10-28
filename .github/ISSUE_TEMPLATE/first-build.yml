@@ -1,0 +1,22 @@
+name: First-build idea
+description: Propose a tiny, shippable change (docs, helper tweak, CI nudge, diagram placeholder).
+title: "first-build: <what>"
+labels: ["first-build","good first issue"]
+body:
+  - type: textarea
+    id: intent
+    attributes:
+      label: What is the tiny thing you will ship?
+      description: Keep it small (5–30 minutes).
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence/validation
+      description: How will we know it works (screenshot, link, checksum)?
+  - type: input
+    id: branch
+    attributes:
+      label: Branch name (optional)
+      placeholder: contributors/<handle>-first-build

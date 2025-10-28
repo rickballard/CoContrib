@@ -20,3 +20,6 @@
 ## Next
 - Do the **Training Example** in `training/README.md` (Idea → AdviceBomb → CoCache inbox).
 - Explore `tools/New-AdviceBomb.ps1` and `training/scripts/Start-TrainingExample.ps1`.
+
+### Handy reference
+- [Keyboard Survival](../docs/KEYBOARD_SURVIVAL.md) — PS7 & GitHub web tips.
