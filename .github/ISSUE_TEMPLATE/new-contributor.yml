@@ -1,0 +1,17 @@
+name: New Contributor
+description: Create a new contributor request
+title: "New contributor: <handle>"
+labels: ["onboarding"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Display name
+    validations:
+      required: true
+  - type: input
+    id: handle
+    attributes:
+      label: GitHub handle (lowercase, a-z0-9-)
+    validations:
+      required: true
