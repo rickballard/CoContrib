@@ -1,0 +1,21 @@
+name: guard
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check contributor handle folders
+        run: |
+          bad=0
+          for d in contributors/*; do
+            [ -d "$d" ] || continue
+            h=$(basename "$d")
+            if ! echo "$h" | grep -Eq '^[a-z0-9-]+$'; then
+              echo "::error title=Invalid handle::$h fails handle regex"
+              bad=1
+            fi
+          done
+          exit $bad
