@@ -1,7 +1,17 @@
-* text=auto eol=lf
-*.ps1 text eol=crlf
-*.bat text eol=crlf
-*.cmd text eol=crlf
-*.png binary
-*.jpg binary
-*.zip binary
+# Text normalization
+* text=auto
+
+# Keep LF in repo (Windows can CRLF at checkout)
+*.ps1  text eol=lf
+*.psm1 text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.json text eol=lf
+*.mmd  text eol=lf
+
+# Common binaries
+*.zip  binary
+*.7z   binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
