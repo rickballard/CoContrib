@@ -38,7 +38,10 @@ o corruption, no coercion, no crowns\
 
 
 
+
 <!-- XREF
 {"title":"Contrib CoSync","type":"guide","repo":"CoContrib","tags":["onboarding","workflow"],"see_also":["contributors/elias/compass/docs/marketing/CoSuite_Open-Source_Compass.md"],"depends_on":[]}
 XREF -->
+
+
 

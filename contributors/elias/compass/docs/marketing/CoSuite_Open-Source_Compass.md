@@ -148,7 +148,10 @@ Pick one theme → ship a pilot in 30 days; open a PR; contribute receipts; spon
 
 
 
+
 <!-- XREF
 {"title":"Open-Source Compass (stable)","type":"guide","repo":"CoContrib","tags":["onboarding","compass"],"see_also":["docs/New_Session_CoSync_for_Contributors.md"],"depends_on":[]}
 XREF -->
+
+
 
