@@ -1,0 +1,17 @@
+name: bpoe-asset-xref
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "**/*.ps1"
+      - "docs/bpoe/**"
+      - "tools/BPOE/**"
+  workflow_dispatch: {}
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint asset XREFs
+        shell: pwsh
+        run: pwsh -NoProfile -File tools/BPOE/Lint-AssetXref.ps1 -Root .
