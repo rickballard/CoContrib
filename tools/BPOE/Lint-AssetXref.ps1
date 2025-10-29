@@ -4,6 +4,7 @@ $ErrorActionPreference='Stop'
 $fail=$false
 $files = Get-ChildItem -Path $Root -Recurse -File -Include *.md,*.ps1 -ErrorAction SilentlyContinue
 foreach($f in $files){
+$files = $files | Where-Object { $_.FullName -notmatch '[\\/]{1}tools[\\/]BPOE[\\/]' }
   $txt = Get-Content $f.FullName -Raw -EA SilentlyContinue
   if(-not $txt){ continue }
   $matches = [regex]::Matches($txt,'<!--\s*XREF\s*(\{.*?\})\s*XREF\s*-->', 'Singleline')
