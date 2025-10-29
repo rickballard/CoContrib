@@ -1,17 +1,26 @@
-name: bpoe-asset-xref
+name: bpoe-xref
 on:
   pull_request:
+    branches: [ main ]
     paths:
-      - "**/*.md"
-      - "**/*.ps1"
-      - "docs/bpoe/**"
-      - "tools/BPOE/**"
-  workflow_dispatch: {}
+      - '**/*.md'
+      - '**/*.ps1'
+      - '!tools/BPOE/**'
+  push:
+    branches: [ main ]
+    paths:
+      - '**/*.md'
+      - '**/*.ps1'
+      - '!tools/BPOE/**'
 jobs:
-  lint:
+  xref-lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Lint asset XREFs
+      - name: Setup PowerShell
+        uses: PowerShell/PowerShell@v1
+        with:
+          pwsh-version: '7.4.x'
+      - name: Run XREF linter
         shell: pwsh
-        run: pwsh -NoProfile -File tools/BPOE/Lint-AssetXref.ps1 -Root .
+        run: pwsh -NoProfile -File tools/BPOE/Lint-AssetXref.ps1 -Root "\C:\Users\Chris\Documents\GitHub\CoCache"
