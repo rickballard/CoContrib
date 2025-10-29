@@ -1,0 +1,16 @@
+name: First build (tiny starter)
+description: Small, friendly task for newcomers
+labels: ["first-build", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for picking a tiny starter! Attach a screenshot for any doc changes.
+  - type: input
+    id: area
+    attributes:
+      label: Area
+      description: Which file or folder will you touch?
+      placeholder: docs/KEYBOARD_SURVIVAL.md
+    validations:
+      required: true

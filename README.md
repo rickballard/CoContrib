@@ -1,3 +1,9 @@
+<!-- QUICKSTART -->
+### Newcomer Quickstart
+- Open **contributors/elias/ONBOARDING_CHECKLIST.md** and tick one item.
+- Pick the “first-build” issue and make a tiny docs tweak with a screenshot.
+- Add a short CoSync note via `tools/New-CoSyncNote.ps1`.
+
 <!-- GETTING-STARTED -->
 ## Getting Started
 
@@ -28,4 +34,5 @@ Welcome! This repo is the gentle on-ramp for new CoSuite contributors.
 ## Quick Links
 - Compass (marketing): `contributors/elias/compass/docs/marketing/CoSuite_Open-Source_Compass.md`
 - Contributor CoSync (session bootstrap): `docs/New_Session_CoSync_for_Contributors.md`
+
 
