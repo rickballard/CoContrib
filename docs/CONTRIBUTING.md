@@ -8,3 +8,22 @@ XREF -->
 
 
 
+
+
+## XREF blocks (authoring)
+
+Use this exact shape (keys & types enforced by CI):
+
+<!-- XREF
+{ "title":"Short descriptive title",
+  "type":"guide|note|index|tool",
+  "tags":["one","two"],
+  "see_also":["relative/or/absolute/links.md"]
+}
+XREF -->
+
+Rules:
+- **title**: non-empty string
+- **type**: non-empty string (use one of: guide, note, index, tool)
+- **tags**: array of strings
+- **see_also**: array of strings (paths or URLs)
