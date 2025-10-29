@@ -1,3 +1,7 @@
+[![XREF CI](https://github.com/rickballard/CoContrib/actions/workflows/bpoe-asset-xref.yml/badge.svg)](https://github.com/rickballard/CoContrib/actions/workflows/bpoe-asset-xref.yml) · [XREF graph](docs/bpoe/xref-graph.mmd)
+
+[![XREF CI](https://github.com/rickballard/CoContrib/actions/workflows/bpoe-asset-xref.yml/badge.svg)](https://github.com/rickballard/CoContrib/actions/workflows/bpoe-asset-xref.yml)
+
 <!-- QUICKSTART -->
 ### Newcomer Quickstart
 - Open **contributors/elias/ONBOARDING_CHECKLIST.md** and tick one item.
@@ -56,5 +60,7 @@ XREF -->
 - [Open-Source Compass](/contributors/elias/compass/docs/marketing/CoSuite_Open-Source_Compass.md)
 - [Contrib CoSync](/docs/New_Session_CoSync_for_Contributors.md)
 <!-- QUICKLINKS:END -->
+
+
 
 
