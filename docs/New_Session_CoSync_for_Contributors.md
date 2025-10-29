@@ -32,3 +32,13 @@ o corruption, no coercion, no crowns\
    - Open an issue/PR to propose your pilot and rubric  
    - Use \	ools/Render-Scorecard.ps1\ with \docs/marketing/scorecards/SCHEMA.csv\  
    - Ask for review; then promote from \staging\ → stable path
+
+---
+**See also:** [Open-Source Compass](/contributors/elias/compass/docs/marketing/CoSuite_Open-Source_Compass.md)
+
+
+
+<!-- XREF
+{"title":"Contrib CoSync","type":"guide","repo":"CoContrib","tags":["onboarding","workflow"],"see_also":["contributors/elias/compass/docs/marketing/CoSuite_Open-Source_Compass.md"],"depends_on":[]}
+XREF -->
+

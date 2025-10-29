@@ -36,3 +36,22 @@ Welcome! This repo is the gentle on-ramp for new CoSuite contributors.
 - Contributor CoSync (session bootstrap): `docs/New_Session_CoSync_for_Contributors.md`
 
 
+
+
+<!-- XREF
+{"title":"CoContrib index","type":"index","repo":"CoContrib","tags":["onboarding","compass"],"depends_on":[".github/workflows/bpoe-here-strings.yml",".github/workflows/bpoe-asset-xref.yml"],"see_also":["docs/CONTRIBUTING.md"]}
+XREF -->
+
+
+## Quicklinks
+
+- [Open-Source Compass](/contributors/elias/compass/docs/marketing/CoSuite_Open-Source_Compass.md)
+- [Contrib CoSync](/docs/New_Session_CoSync_for_Contributors.md)
+
+
+<!-- QUICKLINKS:START -->
+## Quicklinks
+- [Open-Source Compass](/contributors/elias/compass/docs/marketing/CoSuite_Open-Source_Compass.md)
+- [Contrib CoSync](/docs/New_Session_CoSync_for_Contributors.md)
+<!-- QUICKLINKS:END -->
+

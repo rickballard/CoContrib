@@ -142,3 +142,13 @@ Pick one theme → ship a pilot in 30 days; open a PR; contribute receipts; spon
 **Contributor CoSync:** See docs/New_Session_CoSync_for_Contributors.md for the session bootstrap used by Contributors.
 **Fun closer:** *Build boldly. Audit kindly. If it breaks, leave breadcrumbs for your future self.*
 
+
+---
+**See also:** [Contrib CoSync](/docs/New_Session_CoSync_for_Contributors.md)
+
+
+
+<!-- XREF
+{"title":"Open-Source Compass (stable)","type":"guide","repo":"CoContrib","tags":["onboarding","compass"],"see_also":["docs/New_Session_CoSync_for_Contributors.md"],"depends_on":[]}
+XREF -->
+
