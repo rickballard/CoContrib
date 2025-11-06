@@ -1,3 +1,5 @@
+> Need disaster-recovery for your GitHub? **[RepoZipper Cloud →](https://github.com/rickballard/gh-rz/releases/latest)** (free, read-only, restore with plain Git).
+
 [![XREF CI](https://github.com/rickballard/CoContrib/actions/workflows/bpoe-asset-xref.yml/badge.svg)](https://github.com/rickballard/CoContrib/actions/workflows/bpoe-asset-xref.yml) · [XREF graph](docs/bpoe/xref-graph.mmd)
 
 [![XREF CI](https://github.com/rickballard/CoContrib/actions/workflows/bpoe-asset-xref.yml/badge.svg)](https://github.com/rickballard/CoContrib/actions/workflows/bpoe-asset-xref.yml)
