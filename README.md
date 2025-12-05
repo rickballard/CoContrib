@@ -18,7 +18,7 @@
 
 [![Elias Checklist](https://img.shields.io/badge/Elias-Checklist-blue)](https://github.com/rickballard/CoContrib/blob/main/contributors/elias/ONBOARDING_CHECKLIST.md)
 
-# CoContrib — Contributor Landing Pad
+# CoContrib  -  Contributor Landing Pad
 
 Welcome! This repo is the gentle on-ramp for new CoSuite contributors.
 
@@ -66,3 +66,20 @@ XREF -->
 
 
 
+
+---
+CoProtect_SeedStage_v1:
+  license: 'CSPL-1.0 (CoCivium Seed-Stage Protective License)'
+  bucket: 'Private_RepoOnly'
+  rationale: 'Seed-stage protection of CoCivium / CoSuite rails, helpers, and governance patterns.'
+  openness_intent:
+    summary: 'Protect now, open later when safe and governed.'
+    notes:
+      - 'Planned evolution toward more open licensing as legal and safety structures mature.'
+  trademarks_notice:
+    summary: 'CoCivium and related names are claimed as trademarks or pending trademarks.'
+    usage:
+      - 'Use nominatively only.'
+      - 'Do not imply endorsement or affiliation without written permission.'
+  contact:
+    steward_email: 'contact@InSeed.com'
